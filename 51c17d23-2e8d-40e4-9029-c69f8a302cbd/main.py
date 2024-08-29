@@ -23,7 +23,7 @@ class TradingStrategy(Strategy):
     def data(self):
         data_list = []
         for ticker in self.tickers:
-            data_list.append(Asset(ticker)) # Note: This is illustrative, Asset class usage might differ
+            #######data_list.append(Asset(ticker)) # Note: This is illustrative, Asset class usage might differ
         return data_list
 
     def run(self, data):
