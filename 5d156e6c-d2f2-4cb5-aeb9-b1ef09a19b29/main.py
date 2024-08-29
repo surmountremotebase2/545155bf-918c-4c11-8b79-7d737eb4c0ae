@@ -1,5 +1,5 @@
 from surmount.base_class import Strategy, TargetAllocation
-from surmount.data import option_chains, CurrentPrice
+from surmount.data import options_chain, CurrentPrice
 from surmount.logging import log
 
 class TradingStrategy(Strategy):
