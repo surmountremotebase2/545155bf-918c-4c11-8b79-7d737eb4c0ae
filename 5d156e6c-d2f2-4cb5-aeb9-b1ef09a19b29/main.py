@@ -7,7 +7,7 @@ class TradingStrategy(Strategy):
     def __init__(self):
         self.tickers = ["SPY", "IWM"]  # Example tickers to create strategies for
         # Options data for the tickers
-        log(str(dir(surmount.data)))
+        log(str(dir(surmount.data.Asset)))
         self.data_list = [Asset.OptionChain(i) for i in self.tickers]
         # Current price for adjustment calculations
         self.data_list += [CurrentPrice(i) for i in self.tickers]
