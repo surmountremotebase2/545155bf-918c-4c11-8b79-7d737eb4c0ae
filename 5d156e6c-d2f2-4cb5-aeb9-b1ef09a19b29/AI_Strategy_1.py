@@ -1,6 +1,6 @@
 from surmount.base_class import Strategy, TargetAllocation
 from surmount.technical_indicators import RSI, ATR
-from surmount.data import Asset, OptionChain
+from surmount.data import Asset, OptionChains
 from surmount.logging import log
 
 class TradingStrategy(Strategy):
